@@ -13,6 +13,7 @@ namespace FuelLogger
         public Dashboard()
         {
             InitializeComponent();
+            
         }
     }
 }

@@ -9,22 +9,13 @@ namespace FuelLogger
 {
     public partial class App : Application
     {
+        private NavigationPage navigationPage;
         public App()
         {
             // The root page of your application
-            MainPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            XAlign = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+            MainPage = new Menu();
+            navigationPage = (NavigationPage)((MasterDetailPage)MainPage).Detail;
+
         }
 
         protected override void OnStart()

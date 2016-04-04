@@ -14,10 +14,13 @@ c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Core.xml
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.csprojResolveAssemblyReference.cache
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.App.xaml.g.cs
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Dashboard.xaml.g.cs
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Menu.xaml.g.cs
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.pdb
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll.mdb
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll.mdb
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll.mdb
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll.mdb
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll.mdb

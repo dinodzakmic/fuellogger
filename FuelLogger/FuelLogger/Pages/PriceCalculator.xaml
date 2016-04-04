@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FuelLogger.Pages.PriceCalculator">
+ <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+   <StackLayout Orientation="Vertical">
+   <Grid Padding="10">
+     <Grid.RowDefinitions>
+       <RowDefinition  Height="*"/>
+       <RowDefinition  Height="*"/>
+       <RowDefinition  Height="*"/>
+       
+     </Grid.RowDefinitions>
+     <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="1.5*" />
+       <ColumnDefinition Width="3*" />
+       <ColumnDefinition Width="*" />
+     </Grid.ColumnDefinitions>
+     
+     <Label Grid.Row="0" Grid.Column="0" Text="Distance :" FontSize="16" />
+     <Label Grid.Row="1" Grid.Column="0" Text="Fuel price :" FontSize="16" />
+     <Label Grid.Row="2" Grid.Column="0" Text="Fuel efficiency :" FontSize="16" />
+     <Entry x:Name="txtDistance" Text="{Binding Distance}" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" Placeholder="Distance in km" Keyboard="Numeric" />
+     <Entry x:Name="txtPrice" Text="{Binding Price}" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" Placeholder="Fuel price" Keyboard="Numeric" />
+     <Entry x:Name="txtEff" Text="{Binding Efficiency}" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" Placeholder="Fuel efficiency" Keyboard="Numeric" />
+     <Label Grid.Row="0" Grid.Column="2" Text="km" FontSize="16" />
+     <Label Grid.Row="1" Grid.Column="2" Text="EUR" FontSize="16" />
+     <Label Grid.Row="2" Grid.Column="2" Text="l/100km" FontSize="16" />
+    
+   </Grid>
+   <Grid>
+     <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="*" />
+       <ColumnDefinition Width="*" />
+     </Grid.ColumnDefinitions>
+     <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+     </Grid.RowDefinitions>
+     <Button x:Name="btnReset" Grid.Column="0" Grid.Row="0" Text="Reset" Command="{Binding ResetCommand}" />
+     <Button x:Name="btnCalculate" Grid.Column="1" Grid.Row="0" Text="Calculate" Command="{Binding CalculatePriceCommand}"/>
+   
+   </Grid>
+    <Grid>
+   
+      
+      <Label Text="{Binding PriceResult}"  HorizontalOptions="Center" VerticalOptions="Center" FontSize="37"/>
+     
+      </Grid>
+   </StackLayout>
+ </AbsoluteLayout>
+</ContentPage>

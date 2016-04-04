@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FuelLogger.Menu">
+             x:Class="FuelLogger.Menu"
+                  MasterBehavior="Popover">
   
   <MasterDetailPage.Master>
     <ContentPage Icon="settings.png" Title="Master">
      <StackLayout Orientation="Vertical">
-      <Label Text="MENUITEM 1" />
+      <Label Text="MENUITEM 1">
+        <Label.GestureRecognizers>
+          <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped"></TapGestureRecognizer>
+        </Label.GestureRecognizers>
+      </Label>
+       
        <Label Text="MENUITEM 2" />
        <Label Text="MENUITEM 3" />
      </StackLayout>

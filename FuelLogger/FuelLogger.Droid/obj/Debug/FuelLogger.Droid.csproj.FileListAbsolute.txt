@@ -35,7 +35,6 @@ c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\R.cs.flag
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\uploadflags.txt
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-hdpi\settings.png
-c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.dll.mdb
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.FuelLogger.apk
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.FuelLogger-Signed.apk
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\android\bin\FuelLogger.FuelLogger.apk
@@ -43,5 +42,5 @@ c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-hdpi\fuelicon.png
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-xhdpi\fuelicon.png
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-xxhdpi\fuelicon.png
-c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.dll.mdb
-c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.Droid.dll.mdb
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.dll.mdb
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.Droid.dll.mdb

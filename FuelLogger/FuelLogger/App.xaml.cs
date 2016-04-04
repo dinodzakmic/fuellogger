@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using FuelLogger.ViewModel;
 using Xamarin.Forms;
 
 namespace FuelLogger
@@ -10,6 +10,15 @@ namespace FuelLogger
     public partial class App : Application
     {
         private NavigationPage navigationPage;
+        private static ViewModelLocator _locator;
+
+        public static ViewModelLocator Locator
+        {
+            get
+            {
+                return _locator ?? (_locator = new ViewModelLocator());
+            }
+        }
         public App()
         {
             // The root page of your application

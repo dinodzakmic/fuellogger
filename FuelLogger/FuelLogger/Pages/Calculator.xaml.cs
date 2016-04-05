@@ -15,5 +15,7 @@ namespace FuelLogger.Pages
             InitializeComponent();
             
         }
+
+
     }
 }

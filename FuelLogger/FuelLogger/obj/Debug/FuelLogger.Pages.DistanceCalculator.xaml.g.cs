@@ -17,8 +17,24 @@ namespace FuelLogger.Pages {
     public partial class DistanceCalculator : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtPrice;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtEff;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnReset;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnCalculate;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(DistanceCalculator));
+            txtPrice = this.FindByName<global::Xamarin.Forms.Entry>("txtPrice");
+            txtEff = this.FindByName<global::Xamarin.Forms.Entry>("txtEff");
+            btnReset = this.FindByName<global::Xamarin.Forms.Button>("btnReset");
+            btnCalculate = this.FindByName<global::Xamarin.Forms.Button>("btnCalculate");
         }
     }
 }

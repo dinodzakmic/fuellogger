@@ -42,5 +42,7 @@ c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-hdpi\fuelicon.png
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-xhdpi\fuelicon.png
 c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable-xxhdpi\fuelicon.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\dashboardicon.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\calcicon.png
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.dll.mdb
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.Droid.dll.mdb

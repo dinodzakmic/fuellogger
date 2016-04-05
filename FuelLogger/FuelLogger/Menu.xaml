@@ -18,7 +18,7 @@
      </StackLayout>
        <StackLayout Orientation="Horizontal">
          <Image Source="calcIcon.png" HeightRequest="50" WidthRequest="50" />
-       <Label Text="Calculators" FontSize="17" >
+       <Label Text="Calculators" FontSize="17" VerticalOptions="Center" TranslationX="10" TextColor="Black">
           <Label.GestureRecognizers>
           <TapGestureRecognizer Tapped="CalculatorTapped" />
         </Label.GestureRecognizers>

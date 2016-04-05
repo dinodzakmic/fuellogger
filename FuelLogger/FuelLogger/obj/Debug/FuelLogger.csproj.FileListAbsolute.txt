@@ -1,0 +1,55 @@
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.pdb
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.pdb
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.xml
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.App.xaml.g.cs
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Dashboard.xaml.g.cs
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Menu.xaml.g.cs
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll
+c:\users\adin\documents\visual studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.pdb
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.csprojResolveAssemblyReference.cache
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.Calculator.xaml.g.cs
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.PriceCalculator.xaml.g.cs
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.DistanceCalculator.xaml.g.cs
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll.mdb
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll.mdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.pdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\SQLite.Net.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.csprojResolveAssemblyReference.cache
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.App.xaml.g.cs
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Dashboard.xaml.g.cs
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Menu.xaml.g.cs
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.Calculator.xaml.g.cs
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.PriceCalculator.xaml.g.cs
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.DistanceCalculator.xaml.g.cs
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.pdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll.mdb
+C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll.mdb

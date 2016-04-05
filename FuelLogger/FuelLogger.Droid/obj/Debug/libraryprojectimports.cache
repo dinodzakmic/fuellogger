@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+<<<<<<< HEAD
+    <ResolvedResourceDirectory>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\CodeNest\Desktop\FuelLogger\fuellogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+=======
+    <ResolvedResourceDirectory>C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+>>>>>>> origin/master
+  </ResolvedResourceDirectoryStamps>
+</Paths>

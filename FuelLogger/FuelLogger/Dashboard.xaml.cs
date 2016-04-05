@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using FuelLogger.Helpers;
+using FuelLogger.Model;
+using SQLite.Net;
 using Xamarin.Forms;
 
 namespace FuelLogger
@@ -14,6 +16,12 @@ namespace FuelLogger
         {
             InitializeComponent();
             
+        }
+
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            var t = new LogsDatabase();
+            var items = t.GetItems();
         }
     }
 }

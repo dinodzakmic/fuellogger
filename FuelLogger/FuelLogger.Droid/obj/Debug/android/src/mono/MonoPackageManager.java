@@ -82,6 +82,8 @@ class MonoPackageManager_Resources {
 		"FuelLogger.Droid.dll",
 		"FormsViewGroup.dll",
 		"FuelLogger.dll",
+		"SQLite.Net.dll",
+		"SQLite.Net.Platform.XamarinAndroid.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",

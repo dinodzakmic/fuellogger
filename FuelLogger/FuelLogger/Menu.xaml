@@ -5,16 +5,30 @@
                   MasterBehavior="Popover">
   
   <MasterDetailPage.Master>
-    <ContentPage Icon="settings.png" Title="Master">
-     <StackLayout Orientation="Vertical">
-      <Label Text="MENUITEM 1">
+    <ContentPage Icon="settings.png" Title="Master" BackgroundColor="#039BE5">
+     <StackLayout Orientation="Vertical" Spacing="10" Padding="10">
+     <StackLayout Orientation="Horizontal">
+       <Image Source="dashboardIcon.png" HeightRequest="50" WidthRequest="50" />
+       <Label Text="Dashboard" FontSize="17" TextColor="Black" VerticalOptions="Center" TranslationX="10" >
         <Label.GestureRecognizers>
-          <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped"></TapGestureRecognizer>
+          <TapGestureRecognizer Tapped="DashboardTapped" />
         </Label.GestureRecognizers>
       </Label>
-       
-       <Label Text="MENUITEM 2" />
-       <Label Text="MENUITEM 3" />
+     
+     </StackLayout>
+       <StackLayout Orientation="Horizontal">
+         <Image Source="calcIcon.png" HeightRequest="50" WidthRequest="50" />
+       <Label Text="Calculators" FontSize="17" >
+          <Label.GestureRecognizers>
+          <TapGestureRecognizer Tapped="CalculatorTapped" />
+        </Label.GestureRecognizers>
+       </Label>
+         </StackLayout>
+       <Label Text="MENUITEM 3" FontSize="17" >
+         <Label.GestureRecognizers>
+           <TapGestureRecognizer Tapped="MenuItem3Tapped" />
+         </Label.GestureRecognizers>
+       </Label>
      </StackLayout>
     </ContentPage>
   </MasterDetailPage.Master>

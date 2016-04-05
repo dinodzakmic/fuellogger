@@ -13,6 +13,7 @@ namespace FuelLogger.Pages
         public DistanceCalculator()
         {
             InitializeComponent();
+            BindingContext = App.Locator.Calculators;
         }
     }
 }

@@ -34,6 +34,17 @@ namespace FuelLogger.ViewModel
             }
         }
 
+       private string _totalPrice;
+
+       public string TotalPrice
+       {
+           get { return _totalPrice;}
+           set
+           {
+               _totalPrice = value;
+               RaisePropertyChanged(()=>TotalPrice);
+           }
+       }
         private string _efficiency;
 
         public string Efficiency
@@ -46,6 +57,17 @@ namespace FuelLogger.ViewModel
             }
         }
 
+       private string _distanceResult = "Distance : " + "0" + " km";
+
+       public string DistanceResult
+       {
+           get { return _distanceResult; }
+           set
+           {
+               _distanceResult = value;
+               RaisePropertyChanged(()=>DistanceResult);
+           }
+       }
        private string _priceResult= "Price : " + "0" + " EUR";
 
        public string PriceResult
@@ -59,12 +81,23 @@ namespace FuelLogger.ViewModel
        }
         public ICommand ResetCommand { private set; get; }
         public ICommand CalculatePriceCommand { private set; get; }
+        public ICommand CalculateDistanceCommand { private set; get; }
+        public ICommand ResetDistanceCommand { private set; get; }
         public CalculatorsViewModel()
        {
            ResetCommand = new Command(Reset);
            CalculatePriceCommand = new Command(CalculatePrice);
+            CalculateDistanceCommand = new Command(CalculateDistance);
+            ResetDistanceCommand = new Command(ResetDistanceCalc);
        }
-       
+
+       public void ResetDistanceCalc()
+       {
+           TotalPrice = "";
+           Price = "";
+           Efficiency = "";
+           DistanceResult = "";
+       }
        public void Reset()
        {
            Distance = "";
@@ -73,6 +106,11 @@ namespace FuelLogger.ViewModel
             PriceResult = "Price : " + "0" + " EUR";
         }
 
+       public void CalculateDistance()
+       {
+           var tempPrice = double.Parse(TotalPrice)/double.Parse(Price);
+           DistanceResult = "Distance : " + ((tempPrice/double.Parse(Efficiency))*100).ToString() + " km";
+       }
        public void CalculatePrice()
        {
            var distanceInKm = double.Parse(Distance)/100;

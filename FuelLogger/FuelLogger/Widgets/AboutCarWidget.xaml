@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+
+
+             x:Class="FuelLogger.Widgets.AboutCarWidget">
+  
+    <Grid BackgroundColor="Silver" HeightRequest="90">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="1*" />
+        <ColumnDefinition Width="4*" />
+        <ColumnDefinition Width="1*" />
+      </Grid.ColumnDefinitions>
+      
+       
+        <abstractions:CircleImage x:Name="userImage" Source="{Binding ProfilePicture}" Aspect="AspectFill" Scale="1.3" HeightRequest="100" WidthRequest="100" TranslationX="12" />
+       
+         <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start" TranslationX="20">
+          <Label Text="{Binding CarType}" TextColor="Black"/>
+          <Label Text="{Binding CarYear}" TextColor="Black" />
+          <Label Text="{Binding CarHP}" TextColor="Black"/>
+        </StackLayout>
+        
+       <Grid Grid.Column="2">
+        <Image Source="edit.png" HeightRequest="10" WidthRequest="10" Scale="0.5" />
+        <Grid.GestureRecognizers>
+          <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped" />
+        </Grid.GestureRecognizers>
+      </Grid>
+      
+    
+    </Grid>
+      
+    
+  
+</ContentView>

@@ -44,6 +44,8 @@ namespace FuelLogger.ViewModel
 
             SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<CalculatorsViewModel>();
+            SimpleIoc.Default.Register<UserViewModel>();
+
         }
 
         public MainViewModel Main
@@ -53,6 +55,14 @@ namespace FuelLogger.ViewModel
                 return ServiceLocator.Current.GetInstance<MainViewModel>();
             }
         }
+        public UserViewModel User
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<UserViewModel>();
+            }
+        }
+
         public CalculatorsViewModel Calculators
         {
             get

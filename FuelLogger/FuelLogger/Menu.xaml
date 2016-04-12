@@ -1,13 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+
+
              x:Class="FuelLogger.Menu"
                   MasterBehavior="Popover">
   
   <MasterDetailPage.Master>
-    <ContentPage Icon="settings.png" Title="Master" BackgroundColor="#039BE5">
-     <StackLayout Orientation="Vertical" Spacing="10" Padding="10">
-     <StackLayout Orientation="Horizontal">
+    <ContentPage Icon="settings.png" Title="Master" BackgroundColor="Silver" >
+      <!--BackgroundColor="#039BE5"-->
+      <StackLayout Orientation="Vertical">
+       <Grid HeightRequest="150" WidthRequest="200">
+        <Image Source="{Binding ProfilePicture}"  HorizontalOptions="FillAndExpand" Aspect="AspectFill" AbsoluteLayout.LayoutFlags="All" Opacity="0.25" TranslationY="-30" />
+         <Grid HorizontalOptions="Center" VerticalOptions="Center" TranslationY="42" Scale="0.6">
+         <abstractions:CircleImage x:Name="circle" Source="{Binding ProfilePicture}"/> 
+         <Grid.GestureRecognizers>
+           <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped"></TapGestureRecognizer>
+         </Grid.GestureRecognizers>
+           </Grid>
+       </Grid>
+     <StackLayout Orientation="Horizontal" Padding="10,15,10,10">
        <Image Source="dashboardIcon.png" HeightRequest="50" WidthRequest="50" />
        <Label Text="Dashboard" FontSize="17" TextColor="Black" VerticalOptions="Center" TranslationX="10" >
         <Label.GestureRecognizers>
@@ -16,7 +29,7 @@
       </Label>
      
      </StackLayout>
-       <StackLayout Orientation="Horizontal">
+       <StackLayout Orientation="Horizontal" Padding="10,0,10,10">
          <Image Source="calcIcon.png" HeightRequest="50" WidthRequest="50" />
        <Label Text="Calculators" FontSize="17" VerticalOptions="Center" TranslationX="10" TextColor="Black">
           <Label.GestureRecognizers>
@@ -24,13 +37,33 @@
         </Label.GestureRecognizers>
        </Label>
          </StackLayout>
-       <Label Text="MENUITEM 3" FontSize="17" >
+       <StackLayout Orientation="Horizontal" Padding="10,0,10,10" >
+         <Image Source="map.png" HeightRequest="50" WidthRequest="50" />
+       <Label Text="Map" FontSize="17" VerticalOptions="Center" TranslationX="10" TextColor="Black">
          <Label.GestureRecognizers>
-           <TapGestureRecognizer Tapped="MenuItem3Tapped" />
+           <TapGestureRecognizer Tapped="MapTapped" />
          </Label.GestureRecognizers>
        </Label>
+         </StackLayout>
      </StackLayout>
     </ContentPage>
+    <!--<ContentPage>
+      <ListView x:Name="menuList"  >
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout>
+              <StackLayout Orientation="Horizontal" Padding="20">
+                <Image HeightRequest="50" WidthRequest="50" Source="{Binding Icon}" />
+                <Label Text="{Binding Name}" VerticalOptions="Center" FontSize="20" TranslationX="10" TextColor="Black"></Label>
+              </StackLayout>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Black" />
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </ContentPage>-->
   </MasterDetailPage.Master>
   
   <MasterDetailPage.Detail>

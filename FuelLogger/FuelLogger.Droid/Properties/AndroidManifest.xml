@@ -1,5 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="FuelLogger.FuelLogger" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:icon="@drawable/icon"></application>
+  <application android:icon="@drawable/icon">
+    <!--<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDr21jrr2mkWEQnCh8ISP6zO2ameQUgnT8" />-->
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data
+           android:name="com.google.android.maps.v2.API_KEY"
+           android:value="AIzaSyAiheyVDhuFKWi3Qra46j6XFR7X3epZlOY" />
+  </application>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

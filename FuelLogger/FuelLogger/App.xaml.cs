@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using FuelLogger.ViewModel;
+using PCLStorage;
 using Xamarin.Forms;
 
 namespace FuelLogger
@@ -27,9 +29,27 @@ namespace FuelLogger
 
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
-            // Handle when your app starts
+            //var rootFolder = FileSystem.Current.LocalStorage;
+            //var cacheFolder = rootFolder.GetFolderAsync("FuelLogger").Result;
+            //IFile file = await cacheFolder.GetFileAsync("pictureFile.txt");
+            //if (file != null)
+            //{
+            //    var content = file.ReadAllTextAsync().Result;
+            //    if (content != "")
+            //    {
+            //        var exist = FileSystem.Current.GetFileFromPathAsync(content);
+            //        if (exist != null)
+            //        {
+            //            var stringReader = new StringReader(content);
+            //            var text = stringReader.ReadToEnd();
+            //            App.Locator.User.ProfilePicture = text;
+            //        }
+            //    }
+            //    else App.Locator.User.ProfilePicture = "car.jpg";
+            //}
+
         }
 
         protected override void OnSleep()

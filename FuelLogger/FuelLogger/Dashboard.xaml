@@ -1,17 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-<<<<<<< HEAD
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:widgets="clr-namespace:FuelLogger.Widgets;assembly=FuelLogger"
+             Title="FuelLogger"
              x:Class="FuelLogger.Dashboard">
   
-  <StackLayout>
-    <Button Clicked="Button_OnClicked" Text="TEST" TextColor="Blue" BackgroundColor="Silver" />  
-  </StackLayout>
+
+    <AbsoluteLayout>
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.5*" />
+          <RowDefinition Height="4*" />
+          <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <widgets:AboutCarWidget Padding="10" Grid.Row="1"/>
+        
+        </Grid>
+        
+      
+      <!--<Button Clicked="Button_OnClicked" Text="TEST" TextColor="Blue" BackgroundColor="Silver" />-->
+
+    </AbsoluteLayout>
+
   
 
-=======
-             x:Class="FuelLogger.Dashboard"
-             Title="FuelLogger">
-  
->>>>>>> origin/master
 </ContentPage>

@@ -2485,21 +2485,20 @@ containing a value of this type.
         public static int ic_setting_light=0x7f020074;
         public static int icon=0x7f020075;
         public static int map=0x7f020076;
-        public static int monoandroidsplash=0x7f020077;
-        public static int mr_ic_cast_dark=0x7f020078;
-        public static int mr_ic_cast_light=0x7f020079;
-        public static int mr_ic_media_route_connecting_mono_dark=0x7f02007a;
-        public static int mr_ic_media_route_connecting_mono_light=0x7f02007b;
-        public static int mr_ic_media_route_mono_dark=0x7f02007c;
-        public static int mr_ic_media_route_mono_light=0x7f02007d;
-        public static int mr_ic_pause_dark=0x7f02007e;
-        public static int mr_ic_pause_light=0x7f02007f;
-        public static int mr_ic_play_dark=0x7f020080;
-        public static int mr_ic_play_light=0x7f020081;
-        public static int mr_ic_settings_dark=0x7f020082;
-        public static int mr_ic_settings_light=0x7f020083;
-        public static int notification_template_icon_bg=0x7f020085;
-        public static int settings=0x7f020084;
+        public static int mr_ic_cast_dark=0x7f020077;
+        public static int mr_ic_cast_light=0x7f020078;
+        public static int mr_ic_media_route_connecting_mono_dark=0x7f020079;
+        public static int mr_ic_media_route_connecting_mono_light=0x7f02007a;
+        public static int mr_ic_media_route_mono_dark=0x7f02007b;
+        public static int mr_ic_media_route_mono_light=0x7f02007c;
+        public static int mr_ic_pause_dark=0x7f02007d;
+        public static int mr_ic_pause_light=0x7f02007e;
+        public static int mr_ic_play_dark=0x7f02007f;
+        public static int mr_ic_play_light=0x7f020080;
+        public static int mr_ic_settings_dark=0x7f020081;
+        public static int mr_ic_settings_light=0x7f020082;
+        public static int notification_template_icon_bg=0x7f020084;
+        public static int settings=0x7f020083;
     }
     public static final class id {
         public static int action0=0x7f0b0079;
@@ -2995,7 +2994,6 @@ containing a value of this type.
         public static int CardView=0x7f090004;
         public static int CardView_Dark=0x7f090005;
         public static int CardView_Light=0x7f090006;
-        public static int Mono_Android_Theme_Splash=0x7f090144;
         public static int Platform_AppCompat=0x7f090016;
         public static int Platform_AppCompat_Light=0x7f090017;
         public static int Platform_ThemeOverlay_AppCompat=0x7f090078;

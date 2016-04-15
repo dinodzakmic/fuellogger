@@ -67,5 +67,13 @@ namespace FuelLogger
                 }
             }
         }
+
+        private void CostLogsTapped(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new AddCostLogs());
+            IsPresented = false;
+        }
+
+       
     }
 }

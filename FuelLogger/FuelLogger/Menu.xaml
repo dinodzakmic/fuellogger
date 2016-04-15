@@ -21,7 +21,7 @@
            </Grid>
        </Grid>
      <StackLayout Orientation="Horizontal" Padding="10,15,10,10">
-       <Image Source="dashboardIcon.png" HeightRequest="50" WidthRequest="50" />
+       <Image Source="dashboardIcon.png" HeightRequest="40" WidthRequest="40" />
        <Label Text="Dashboard" FontSize="17" TextColor="Black" VerticalOptions="Center" TranslationX="10" >
         <Label.GestureRecognizers>
           <TapGestureRecognizer Tapped="DashboardTapped" />
@@ -30,7 +30,7 @@
      
      </StackLayout>
        <StackLayout Orientation="Horizontal" Padding="10,0,10,10">
-         <Image Source="calcIcon.png" HeightRequest="50" WidthRequest="50" />
+         <Image Source="calcIcon.png" HeightRequest="40" WidthRequest="40" />
        <Label Text="Calculators" FontSize="17" VerticalOptions="Center" TranslationX="10" TextColor="Black">
           <Label.GestureRecognizers>
           <TapGestureRecognizer Tapped="CalculatorTapped" />
@@ -38,13 +38,23 @@
        </Label>
          </StackLayout>
        <StackLayout Orientation="Horizontal" Padding="10,0,10,10" >
-         <Image Source="map.png" HeightRequest="50" WidthRequest="50" />
+         <Image Source="map.png" HeightRequest="40" WidthRequest="40" />
        <Label Text="Map" FontSize="17" VerticalOptions="Center" TranslationX="10" TextColor="Black">
          <Label.GestureRecognizers>
            <TapGestureRecognizer Tapped="MapTapped" />
          </Label.GestureRecognizers>
        </Label>
          </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,0,10,10" >
+          <Image Source="map.png" HeightRequest="40" WidthRequest="40" />
+          <Label Text="Cost Logs" FontSize="17" VerticalOptions="Center" TranslationX="10" TextColor="Black">
+            <Label.GestureRecognizers>
+              <TapGestureRecognizer Tapped="CostLogsTapped" />
+            </Label.GestureRecognizers>
+          </Label>
+        </StackLayout>
+        
      </StackLayout>
     </ContentPage>
     <!--<ContentPage>

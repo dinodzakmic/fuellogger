@@ -5,8 +5,8 @@
 
 
              x:Class="FuelLogger.Widgets.AboutCarWidget">
-  
-    <Grid BackgroundColor="Silver" HeightRequest="90">
+  <Frame BackgroundColor="Silver" HeightRequest="70" HasShadow="True" OutlineColor="Black">
+    <Grid >
       <Grid.ColumnDefinitions>
         <ColumnDefinition Width="1*" />
         <ColumnDefinition Width="4*" />
@@ -31,7 +31,7 @@
       
     
     </Grid>
-      
+  </Frame>
     
   
 </ContentView>

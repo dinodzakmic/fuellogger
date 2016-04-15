@@ -17,11 +17,11 @@
   </Grid.ColumnDefinitions>
     
   <Label Text="Car type :" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" TranslationX="10" />
-        <Entry Text="{Binding CarType}" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" />
+        <Entry x:Name="txtType" Text="{Binding CarType}" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" />
    <Label Text="Year :" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" TranslationX="10" />
-        <Entry Text="{Binding CarYear}" Grid.Row="1" Grid.Column="1" VerticalOptions="Center"/>
+        <Entry x:Name="txtYear" Text="{Binding CarYear}" Grid.Row="1" Grid.Column="1" VerticalOptions="Center"/>
   <Label Text="Car HP :" Grid.Row="2" Grid.Column="0"  VerticalOptions="Center" TranslationX="10"/>
-        <Entry Text="{Binding CarHP}" Grid.Row="2" Grid.Column="1" VerticalOptions="Center"/>
+        <Entry x:Name="txtHP" Text="{Binding CarHP}" Grid.Row="2" Grid.Column="1" VerticalOptions="Center"/>
   </Grid>
   
    </StackLayout>

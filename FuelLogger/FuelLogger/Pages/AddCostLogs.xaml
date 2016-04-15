@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             x:Class="FuelLogger.Pages.AddCostLogs">
+
+<Grid Padding="10">
+  
+<Grid.RowDefinitions>
+  <RowDefinition Height="1*"/>
+  <RowDefinition Height="1*"/>
+</Grid.RowDefinitions>
+  <Frame Grid.Row="0" BackgroundColor="#1e8a76" HasShadow="True" OutlineColor="Black" Bounds="10,10,10,10">
+  <Grid >
+  <Grid.RowDefinitions>
+    <RowDefinition Height="1*"/>
+    <RowDefinition Height="1*"/>
+    <RowDefinition Height="1*"/>
+    <RowDefinition Height="1*"/>
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="0.4*" />
+    <ColumnDefinition Width="1*" />
+  </Grid.ColumnDefinitions>
+  <Image Source="calendar.png" HeightRequest="10" WidthRequest="10" Grid.Column="0" Grid.Row="0" />
+  <DatePicker Grid.Column="1" Grid.Row="0" Date="{Binding Date}" />
+  <Image Source="products.png" HeightRequest="10" WidthRequest="10" Grid.Column="0" Grid.Row="1" />
+  <Picker BindingContext="{Binding}" x:Name="productPicker" Grid.Row="1" Grid.Column="1" SelectedIndexChanged="ProductPicker_OnSelectedIndexChanged"  />
+  <Image Source="price.png" Grid.Column="0" Grid.Row="2" HeightRequest="10" WidthRequest="10" />
+  <Entry Text="{Binding Price}" Grid.Column="1" Grid.Row="2" Placeholder="Price" Keyboard="Numeric" />
+  <Image Source="description.png" HeightRequest="10" WidthRequest="10" Grid.Column="0" Grid.Row="3" />
+  <Entry Text="{Binding Description}" Grid.Column="1" Grid.Row="3" Placeholder="Description"  />
+  
+</Grid>
+</Frame>
+  <Frame HasShadow="True" BackgroundColor="#1e8a76" OutlineColor="Black" Grid.Row="1" >
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="2*" />
+        <RowDefinition Height="1*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.5*" />
+        <ColumnDefinition Width="1*" />
+      </Grid.ColumnDefinitions>
+      
+      <abstractions:CircleImage x:Name="prodImage" Source="{Binding productImage}" HeightRequest="120" WidthRequest="120" Scale="1.1" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Start" />
+    
+      <StackLayout Grid.Row="0" Grid.Column="1" Padding="10">
+    
+    <Label Text="{Binding Date}" />
+    <Label Text="{Binding SelectedProduct}" />
+    <Label Text="{Binding PriceWithCurr}"  />
+    <Label Text="{Binding Description}" />
+    </StackLayout>
+  <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+    <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" Color="White" />
+   <Button Text="Add Log"  />
+  </StackLayout>
+   
+    
+    
+    </Grid>
+
+    
+    
+    
+  </Frame>
+  
+  
+  
+ 
+  </Grid>
+  <!--<StackLayout Grid.Column="0" Grid.Row="0" Padding="10">
+   <StackLayout Orientation="Horizontal">
+   <Image Source="calendar.png" WidthRequest="20" HeightRequest="20" />
+     <DatePicker />
+   </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Type :" FontSize="17" />
+      <Picker BindingContext="{Binding}" x:Name="productPicker"  />
+    </StackLayout>
+    <StackLayout>
+      <Label Text="Description :" FontSize="17" />
+      <Entry WidthRequest="100" HorizontalTextAlignment="Start" />
+    </StackLayout>
+  </StackLayout>
+  <Grid Grid.Column="1" Grid.Row="0" Padding="10" >
+  <abstractions:CircleImage x:Name="productIcon" Source="fuelicon.png"
+                            HeightRequest="70" WidthRequest="70" 
+                            VerticalOptions="Start" HorizontalOptions="Center"   />
+  </Grid>-->
+</ContentPage>

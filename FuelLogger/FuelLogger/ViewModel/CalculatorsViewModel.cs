@@ -96,7 +96,7 @@ namespace FuelLogger.ViewModel
            TotalPrice = "";
            Price = "";
            Efficiency = "";
-           DistanceResult = "";
+           DistanceResult = "Distance : " + "0" + " km";
        }
        public void Reset()
        {
@@ -109,7 +109,7 @@ namespace FuelLogger.ViewModel
        public void CalculateDistance()
        {
            var tempPrice = double.Parse(TotalPrice)/double.Parse(Price);
-           DistanceResult = "Distance : " + ((tempPrice/double.Parse(Efficiency))*100).ToString() + " km";
+           DistanceResult = "Distance : " + Math.Round(((tempPrice/double.Parse(Efficiency))*100)).ToString() + " km";
        }
        public void CalculatePrice()
        {

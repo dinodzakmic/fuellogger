@@ -6,7 +6,6 @@
              Title="FuelLogger"
              x:Class="FuelLogger.Dashboard">
   
-
     <AbsoluteLayout>
       <Grid>
         <Grid.RowDefinitions>

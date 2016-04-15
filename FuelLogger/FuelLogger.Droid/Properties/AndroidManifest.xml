@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="FuelLogger.FuelLogger" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" />
-  <application android:icon="@drawable/icon">
+  <application android:icon="@drawable/icon" android:theme="@style/MyTheme">
     <!--<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDr21jrr2mkWEQnCh8ISP6zO2ameQUgnT8" />-->
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data

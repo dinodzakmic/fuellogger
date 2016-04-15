@@ -18,7 +18,7 @@ namespace FuelLogger.Widgets
 
         private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new EditCarInfo() {Icon = ""});
+            Navigation.PushAsync(new EditCarInfo());
         }
     }
 }

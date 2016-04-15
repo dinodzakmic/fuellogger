@@ -110,8 +110,6 @@ C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.csprojResolveAssemblyReference.cache
-C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\monoandroidsplash.png
-C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\values\styles.xml
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.dll
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.pdb
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\android\bin\FuelLogger.FuelLogger.apk
@@ -132,5 +130,14 @@ C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\edit.png
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\R.cs.flag
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\uploadflags.txt
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\description.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\calendar.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\products.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\price.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\letteraccessories.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\letterparking.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\letterservice.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\drawable\letterfuel.png
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\res\values\styles.xml
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\obj\Debug\FuelLogger.Droid.dll.mdb
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger.Droid\bin\Debug\FuelLogger.Droid.dll.mdb

@@ -76,6 +76,7 @@ C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\XLabs.Ioc.xml
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\XLabs.Platform.xml
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\XLabs.Serialization.xml
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.csprojResolveAssemblyReference.cache
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.App.xaml.g.cs
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Dashboard.xaml.g.cs
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Menu.xaml.g.cs
@@ -84,9 +85,10 @@ C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLo
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.DistanceCalculator.xaml.g.cs
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.Mapica.xaml.g.cs
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Widgets.AboutCarWidget.xaml.g.cs
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.EditCarInfo.xaml.g.cs
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.pdb
-C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.csprojResolveAssemblyReference.cache
-C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.EditCarInfo.xaml.g.cs
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.CostLogs.xaml.g.cs
+C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.Pages.AddCostLogs.xaml.g.cs
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\obj\Debug\FuelLogger.dll.mdb
 C:\Users\Adin\Documents\Visual Studio 2015\Projects\FuelLogger\FuelLogger\FuelLogger\bin\Debug\FuelLogger.dll.mdb
